@@ -1,0 +1,144 @@
+body{
+    background: rgb(250, 180, 180);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   header{
+    background-color: rgb(25, 110, 61);
+    height: 230px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+   }
+  
+   header .mobile{
+    display: none;
+   }
+
+   header .logo a{
+    background-image: url(images/icon.png);
+    background-position: center;
+    background-size: 300px;
+    display: inline-block;
+    height: 210px;
+    width: 210px;
+    position: relative;
+    text-indent: -99999999999px;
+    top: -10px;
+    background-repeat: no-repeat;
+    opacity: 600%;
+   }
+
+   @media screen and (max-width: 700px) {
+    header {
+        height: 230px;     
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+   }
+
+   section{
+    background: rgb(214, 209, 209);
+    padding: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration-color: blue;
+
+   }
+   section figure{
+    margin: auto;
+    text-align: center;
+   /* width: 200px; */
+   width: 30%;
+
+   }
+   section figure img{
+    border-radius: 25%;
+    text-transform: capitalize;
+  /*  width: 200px; */
+    width: 50%;
+    height: auto;
+    box-shadow: 0 8px 10px black;
+    border: 1px solid white;
+    max-width: 300PX;
+   }
+   li{
+    display: inline-block;
+    margin-right: 28px;
+   }
+   ul{
+    margin: 1px;
+    padding: 0;
+    list-style-type: none;
+   }
+    button{
+        padding: 10px;
+        color: rgb(238, 168, 77);
+        position: center;
+        
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+    div{
+    background-image: url(images/team\ work.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    justify-content: center;
+     border-radius: 10px;
+}
+  
+   h1{
+        color: goldenrod;
+        position: relative;
+        top: -31px;
+        opacity: 100%;
+    }
+    h2{
+        color: orange;
+    }
+    .inquiries{
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        flex:auto;
+        width: 100px;
+        /*background-image: url(images/mic infront.jpeg); */
+    }
+      .mailto  h3{
+            text-align: center;
+        }
+
+        footer{
+text-align: center;
+        }
+
+    
+
+   
